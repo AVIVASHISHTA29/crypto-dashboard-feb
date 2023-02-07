@@ -17,7 +17,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--black);
   color: var(--white);
-  height: 200vh;
 }
 
 ::selection {
@@ -40,4 +39,9 @@ img {
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
 }
